@@ -16,7 +16,8 @@ setup(
     description='This is a python package for genomics study with a GCN framework.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=['numpy', 'torch==1.7.1', 'torch-geometric==1.7.0', 'biopython==1.78'],
+    #install_requires=['numpy', 'torch==1.7.1', 'torch-geometric==1.7.0', 'biopython==1.78'],
+    install_requires=['numpy', 'torch', 'torch-geometric', 'biopython'],
     classifiers=[
 		"License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.8",
